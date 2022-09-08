@@ -28,10 +28,10 @@ const Timeline = () => {
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
-                        <Text h3 className="timelineTitle">Tech School - 42 Wolfsburg</Text>
+                        <Text h3 className="timelineTitle">Software Engineering School - 42 Wolfsburg</Text>
                         <Text h4 className="timelineSubtitle">Wolfsburg, Germany and remotely</Text>
                         <Text b>
-                            I started studying software engineering at 42 Wolfsburg in 2021, March.
+                            I started studying software engineering at 42 Wolfsburg in 2021, February.
 							I am still a student here, although now I mostly work in weekends.
 							I do plan to finish the curriculum as to have been part of 42 network has been a 
 							very rewarding and fulfilling experience.
