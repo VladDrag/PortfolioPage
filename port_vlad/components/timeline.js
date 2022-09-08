@@ -24,7 +24,7 @@ const Timeline = () => {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'gray', color: '#11181C' }}
+                        contentStyle={{ background: '#f5f5f5', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
@@ -41,7 +41,7 @@ const Timeline = () => {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'gray', color: '#11181C' }}
+                        contentStyle={{ background: '#f5f5f5', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
@@ -61,7 +61,7 @@ const Timeline = () => {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'gray', color: '#11181C' }}
+                        contentStyle={{ background: '#f5f5f5', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<WorkRoundedIcon />}
                     >
@@ -75,7 +75,7 @@ const Timeline = () => {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'gray', color: '#11181C' }}
+                        contentStyle={{ background: '#f5f5f5', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<QuestionMarkRoundedIcon />}
                     >
