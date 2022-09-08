@@ -15,8 +15,8 @@ const AboutMe = () => {
                     <Text b className="color-EEE6CE">I&apos;m Vlad Dragomir and I&apos;m currently based in Oslo, Norway</Text>
                     <Text b className="color-EEE6CE">I started programming 2 years ago.</Text>
                     <Text b className="color-EEE6CE">I started writing simple python scripts.</Text>
-                    <Text b className="color-EEE6CE">I really enjoyed it so I enrolled to a school in Germany.</Text>
-                    <Text b className="color-EEE6CE">I&apos;ll admit, I made a few detours on my way, but hey, I&apos;m a National Champion in American Football!</Text>
+                    <Text b className="color-EEE6CE">I really enjoyed it so I enrolled to a software engineering school in Germany.</Text>
+                    <Text b className="color-EEE6CE">Now I am a web developer, working as a consultant for S.A.L.T.</Text>
                     <br />
                     <Text b className="color-EEE6CE">Anyhow, this is my passion and I thank you for visiting my site</Text>
                 </Zoom>
