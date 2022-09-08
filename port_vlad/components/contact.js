@@ -25,8 +25,6 @@ const Contact = () => {
                     </a>
                     <br />
                     <Text b className="color-EEE6CE">All my other links are in the footer</Text>
-                    <iframe src="https://giphy.com/embed/3ohs4doVZYHWaqRpwA" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-
                 </Zoom>
                 <Link to="intro" spy={true} smooth={true}>
                     <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow rotate180" width={100} height={100}/>

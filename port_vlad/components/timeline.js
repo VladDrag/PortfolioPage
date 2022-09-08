@@ -24,22 +24,24 @@ const Timeline = () => {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#EEE6CE', color: '#11181C' }}
+                        contentStyle={{ background: 'gray', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
-                        <Text h3 className="timelineTitle">Dr. Angela Yu&apos;s Python Bootcamp</Text>
-                        <Text h4 className="timelineSubtitle">At Home</Text>
+                        <Text h3 className="timelineTitle">Tech School - 42 Wolfsburg</Text>
+                        <Text h4 className="timelineSubtitle">Wolfsburg, Germany and remotely</Text>
                         <Text b>
-                            A 100-day course on Python. Where I got the chance to familiarize myself with programming concepts and slightly more advanced things.
-                            I haven&apos;t had the time to finish it yet, but in due time I will.
+                            I started studying software engineering at 42 Wolfsburg in 2021, March.
+							I am still a student here, although now I mostly work in weekends.
+							I do plan to finish the curriculum as to have been part of 42 network has been a 
+							very rewarding and fulfilling experience.
                         </Text>
-                        <Text>2022 - Present</Text>
+                        <Text>2021, March - Present</Text>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#EEE6CE', color: '#11181C' }}
+                        contentStyle={{ background: 'gray', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
@@ -50,43 +52,43 @@ const Timeline = () => {
                             <br /> <br />
                             SALT provides an amazing opportunity to change your life, as long as you&apos;re prepared to truly give it your ALL, then this course is for you!
                             <br /> <br />
-                            If this sounds interesting, <a href="https://salt.study/" target="_blank"
+                            If this sounds interesting and you intend to also participate, then <a href="https://salt.study/" target="_blank"
               rel="noopener noreferrer">apply here</a>
                             
                         </Text>
-                        <Text> 05/02-22 - 08/25-22  </Text>
+                        <Text> 05/01-22 - 07/30-22  </Text>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#EEE6CE', color: '#11181C' }}
+                        contentStyle={{ background: 'gray', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<WorkRoundedIcon />}
                     >
-                        <Text h3 className="timelineTitle">Junior Developer, SALT</Text>
+                        <Text h3 className="timelineTitle">Junior Full Stack Developer, SALT</Text>
                         <Text h4 className="timelineSubtitle">SALT, Stockholm</Text>
                         <Text b>
                             After graduating from SALT&apos;s bootcamp, I began my work with them as a consultant.
                         </Text>
-                        <Text> 09/01-22 - Present</Text>
+                        <Text> 08/01-22 - Present</Text>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#EEE6CE', color: '#11181C' }}
+                        contentStyle={{ background: 'gray', color: '#11181C' }}
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<QuestionMarkRoundedIcon />}
                     >
                         <Text h3 className="timelineTitle">What does the future hold..?</Text>
-                        <Text h4 className="timelineSubtitle">I&apos;m currently awaiting placement</Text>
+                        <Text h4 className="timelineSubtitle">I&apos;m currently awaiting placement.</Text>
                         <Text b>
-                            Who knows, it might be your company I&apos;m working for
+                            Who knows, it might be your company I&apos;m working for!
                             <br />
                             Don&apos;t be shy, <a href="mailto:sales@salt-sthlm.com"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             >
-                                                tell SALT you&apos;re on the hunt
+                                                tell SALT you&apos;re on the hunt!
                                             </a>
 
                         </Text>

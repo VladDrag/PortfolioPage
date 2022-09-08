@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #313552;
+	background-color: rgb(16, 15, 15);
     
     font-family: monospace;
     
@@ -58,7 +58,7 @@ body {
 .techCard {
     display: flex;
     align-items: center;
-    background-color: #EEE6CE;
+    background-color: gray;
 }
 
 .timeline {
@@ -67,7 +67,7 @@ body {
 
 .timelineDate {
     font-size: large;
-    color: #11181C;
+    color: #808080;
 }
 
 .projects {
@@ -81,7 +81,7 @@ body {
 
 .projectCardLink {
     text-decoration: none;
-    color: #EEE6CE;
+    color: gray;
 }
 .projectCardButton:hover {
     background-color: #66BFBF;

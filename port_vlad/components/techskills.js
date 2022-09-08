@@ -24,7 +24,8 @@ const TechSkills = () => {
                                 <Card.Body>
                                     <Text b>C#</Text>
                                     <Text b>JavaScript</Text>
-                                    <Text b>Python</Text>
+                                    <Text b>C / C++</Text>
+                                    <Text b>Rust</Text>
                                 </Card.Body>
                             </Card>
                     </Grid>
@@ -36,10 +37,8 @@ const TechSkills = () => {
                                 <Card.Divider />
                                 <Card.Body>
                                     <Text b>ReactJS / NextJS</Text>
-                                    <Text b>MaterialUI / NextUI</Text>
                                     <Text b>HTML5</Text>
                                     <Text b>CSS3</Text>
-                                    <Text b>Auth0</Text>
                                     <Text b>Mocha / Jest / Cypress</Text>
                                 </Card.Body>
                             </Card>
@@ -53,7 +52,7 @@ const TechSkills = () => {
                                 <Card.Body>
                                     <Text b>.NET</Text>
                                     <Text b>EntityFramework</Text>
-                                    <Text b>Visual Studio/VS Code</Text>
+                                    <Text b>Visual Studio/VS Code/JetBrains IDEs</Text>
                                     <Text b>Auth0</Text>
                                     <Text b>LINQ</Text>
                                     <Text b>SQL</Text>
@@ -72,7 +71,6 @@ const TechSkills = () => {
                                     <Text b>Swagger / Postman</Text>
                                     <Text b>Azure</Text>
                                     <Text b>Docker</Text>
-                                    <Text b>Heroku</Text>
                                     <Text b>DI / MOB / AGILE / SCRUM / TDD</Text>
                                 </Card.Body>
                             </Card>
