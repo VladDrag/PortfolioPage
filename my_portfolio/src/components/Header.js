@@ -1,18 +1,20 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { Link, Router, Switch, Route } from 'react-router-dom';
 
-function Header() {
+function Header({setPage}) {
+	const handleClick = (page) => {
+		setPage(page);
+	}
 	return (
-	<div className="header">
-		<div className="headerLinks">
-			<ul className="navBar">
-				<li>Home</li>
-				<li>About</li>
-				<li>Portfolio</li>
-				<li>Tools</li>
-			</ul>
+		<div className="header">
+			<div className="headerLinks">
+				<ul className="navBar">
+					<li onClick={() => handleClick("home")}>Home</li>
+					<li onClick={() => handleClick("about")}>About</li>
+					<li onClick={() => handleClick("projects")}>Projects</li>
+				</ul>
+			</div>
 		</div>
-	</div>
 	);
 }
 
