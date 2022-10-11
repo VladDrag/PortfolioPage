@@ -1,15 +1,14 @@
 import './Header.css';
+
 function Header() {
 	return (
 	<div className="header">
-		<div className="headerTitle">
-			<h3>Vlad Dragomir</h3>
-		</div>
 		<div className="headerLinks">
-			<ul>
+			<ul className="navBar">
 				<li>Home</li>
 				<li>About</li>
 				<li>Portfolio</li>
+				<li>Tools</li>
 			</ul>
 		</div>
 	</div>

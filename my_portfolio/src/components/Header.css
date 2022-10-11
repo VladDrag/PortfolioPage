@@ -1,24 +1,26 @@
 .header {
 	display: grid;
-	grid-template-columns: 0.5fr 0.5fr;
+	grid-template-columns: 0.47fr;
 }
 
 .headerLinks {
 	display: inline;
-	border-right: 0;
-	padding: 0 0 0 0;
-	margin-right: 0;
 }
 
-ul li{
+.navBar li{
 	display: inline;
-	border-right: 0;
-	padding: 0 0 0 0;
-	margin-right: 0;
+}
+
+.headerStack {
+	display: block;
+}
+
+.headerStack li {
+	display: block;
 }
 
 ul {
-    display: grid;
-    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
-	padding: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+	max-width: 600px;
 }
