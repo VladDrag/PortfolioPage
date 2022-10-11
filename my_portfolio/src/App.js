@@ -14,3 +14,6 @@ function App() {
 }
 
 export default App;
+{/* <Switch>
+<Route exact path="/dashboard" component={Dashboard} />
+</Switch> */}
