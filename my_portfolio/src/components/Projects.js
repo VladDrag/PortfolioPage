@@ -1,4 +1,5 @@
 import push_swap from '../images/push_swap.gif';
+import Fabryca from '../images/Fabryca.jpg';
 import './Projects.css';
 
 export default function Projects() {
@@ -19,14 +20,16 @@ export default function Projects() {
 			</div>
 			<div className="projects">
 				<div className="project">
-					<h3 className="project__title">Test_second</h3>
+					<h3 className="project__title">Fabryca</h3>
 					<div className="project__card">
 						<p className="project__description">
-							Description Test
+							The final project of the 3-month intensive SALT Stockholm bootcamp.
+							This is a ticketing app. It is made with the purpose of managing your projects.
+							As my personal contribution, I have built most of the backend for this app.
 						</p>
-						<img className="project__img" src={push_swap} alt="push_swap"/>
+						<img className="project__img" src={Fabryca} alt="Fabryca"/>
 					</div>
-					<a href="" className="project__link"/>
+					<a href="https://github.com/VladDrag/Fabryca" className="project__link"> View project </a>
 				</div>
 			</div>
 		</div>
