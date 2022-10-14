@@ -1,0 +1,36 @@
+.projects {
+	display:grid;
+}
+
+.project {
+	padding: 0.5rem;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	height: auto;
+	border-bottom: 1px #fff;
+	/* background:gray; */
+}
+
+.project__card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	gap: 2rem;
+}
+
+.project__img {
+	border-radius: 0;
+	width: 30%;
+	height: auto;
+}
+
+.project__description {
+	width: 20rem;
+}
