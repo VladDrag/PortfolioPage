@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import About from './components/About';
 import Projects from './components/Projects';
 import Stack from './components/Stack';
+import Footer from './components/Footer';
 import {useState} from 'react';
 
 function App() {
@@ -17,11 +18,9 @@ function App() {
 		{page === "about" && <About/>}
 		{page === "projects" && <Projects/>}
 		<Stack/>
+		<Footer/>
 	</div>
 	);
 }
 
 export default App;
-{/* <Switch>
-<Route exact path="/dashboard" component={Dashboard} />
-</Switch> */}
