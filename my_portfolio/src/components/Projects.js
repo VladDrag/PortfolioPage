@@ -15,7 +15,19 @@ export default function Projects() {
 					</p>
 					<img className="project__img" src={push_swap} alt="push_swap"/>
 				</div>
-				<a href="" className="project__link"/>
+				<a href="https://github.com/VladDrag/42_WB_2021_Push_Swap" className="project__link">View project</a>
+			</div>
+			<div className="projects">
+				<div className="project">
+					<h3 className="project__title">Test_second</h3>
+					<div className="project__card">
+						<p className="project__description">
+							Description Test
+						</p>
+						<img className="project__img" src={push_swap} alt="push_swap"/>
+					</div>
+					<a href="" className="project__link"/>
+				</div>
 			</div>
 		</div>
 	);
