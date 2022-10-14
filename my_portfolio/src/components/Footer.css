@@ -1,0 +1,12 @@
+.footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: grid;
+}
+
+.footer__links {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
